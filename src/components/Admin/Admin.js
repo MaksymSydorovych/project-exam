@@ -22,7 +22,7 @@ export default function Admin() {
 		if (!auth) {
 			navigate("/");
 		}
-	}, []); // eslint-disable-line react-hooks/exhaustive-deps;
+	}, [auth, navigate]);
 	return (
 		<Container className='mt-4	admin'>
 			<Heading title='Amin page' />

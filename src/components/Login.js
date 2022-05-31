@@ -36,8 +36,8 @@ export default function Login() {
 	} = useForm({
 		resolver: yupResolver(schema),
 	});
-
-	const [, setAuth] = useContext(AuthContext);
+	/* eslint-disable no-unused-vars */
+	const [auth, setAuth] = useContext(AuthContext); // eslint-disable-next-line;
 	const navigate = useNavigate();
 	async function onSubmit(data) {
 		setSubmitting(true);
