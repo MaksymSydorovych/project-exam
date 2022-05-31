@@ -1,0 +1,15 @@
+.navigation {
+	background: rgb(14, 13, 13) !important;
+	&__dropdown {
+		text-align: center !important;
+		color: antiquewhite;
+	}
+}
+.navigation a:hover {
+	color: #5ad7fa !important;
+}
+.dropdown-menu.show {
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+}

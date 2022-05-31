@@ -1,0 +1,23 @@
+.detail {
+	&__img {
+		border-bottom: 22px solid rgb(215, 147, 45) !important;
+
+		&--item {
+			width: 450px !important;
+		}
+	}
+	&__body {
+		text-align: left !important;
+	}
+	&__link {
+		display: flex;
+		justify-content: center;
+		&--a {
+			color: wheat !important;
+		}
+	}
+}
+.detail:hover {
+	background-color: rgb(227, 220, 208);
+	opacity: 1;
+}

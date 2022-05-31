@@ -1,0 +1,24 @@
+.admin {
+	&__button {
+		margin: 5%;
+	}
+	&__box {
+		display: flex;
+		justify-content: center;
+	}
+
+	.admin__button a {
+		color: white !important;
+	}
+}
+.checkin {
+	color: rgb(50, 165, 50);
+}
+.checkout {
+	color: rgb(231, 28, 28);
+}
+@media (max-width: 552px) {
+	.admin__box {
+		flex-direction: column;
+	}
+}

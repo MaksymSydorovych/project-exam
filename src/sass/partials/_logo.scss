@@ -1,0 +1,26 @@
+.logo {
+	&__first {
+		color: #5ad7fa !important;
+		font-size: 2em;
+
+		text-shadow: 1px 1px;
+	}
+	&__second {
+		color: rgb(47, 142, 47) !important;
+		margin-left: 1%;
+		font-size: 2em;
+		text-shadow: 1px 1px;
+	}
+	&__img {
+		width: 80px;
+		margin: 20px;
+	}
+}
+@media (max-width: 552px) {
+	.logo {
+		font-size: 0.8em !important;
+		&__img {
+			width: 50px;
+		}
+	}
+}
