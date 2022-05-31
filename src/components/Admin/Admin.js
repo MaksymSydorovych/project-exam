@@ -9,7 +9,6 @@ export default function Admin() {
 	const navigate = useNavigate();
 
 	let user = JSON.parse(window.localStorage.getItem("auth"));
-
 	let auth = true;
 
 	if (!user) {
@@ -23,7 +22,7 @@ export default function Admin() {
 		if (!auth) {
 			navigate("/");
 		}
-	}, []);
+	}, []); // eslint-disable-line react-hooks/exhaustive-deps;
 	return (
 		<Container className='mt-4	admin'>
 			<Heading title='Amin page' />
