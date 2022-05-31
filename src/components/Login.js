@@ -37,7 +37,7 @@ export default function Login() {
 		resolver: yupResolver(schema),
 	});
 
-	const [auth, setAuth] = useContext(AuthContext);
+	const [, setAuth] = useContext(AuthContext);
 	const navigate = useNavigate();
 	async function onSubmit(data) {
 		setSubmitting(true);

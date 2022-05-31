@@ -39,7 +39,7 @@ export default function MessagesList() {
 		<Container>
 			<Row>
 				{messages
-					.filter(messages => messages.prices.price == 0)
+					.filter(messages => messages.prices.price <= 0)
 					.map(function (message) {
 						const { id, sku, short_description, name, description } = message;
 						return (
