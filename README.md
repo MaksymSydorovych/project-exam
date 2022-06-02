@@ -2,7 +2,7 @@
 
   Holidaze is a fictional company which displays a number of different establishments in Bergen, Norway. The project is created to showcase my abilities acquired during the past two years of my education, and is the assignment of my final exam as a Frontend Develop at Noroff. 
 ---
-![image](https://res.cloudinary.com/dkombzxne/image/upload/v1654176688/portfolio/exam-img_x7g4td.jpg);
+![image](https://res.cloudinary.com/dkombzxne/image/upload/v1654176688/portfolio/exam-img_x7g4td.jpg)
 ## Visitor side:
 * Home page
 * Search bar typeahead (auto dropdown to match the products or services the real world client has)
